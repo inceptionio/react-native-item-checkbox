@@ -104,15 +104,6 @@ export default class ItemCheckbox extends React.Component {
     this._completeProgress(true);
   }
 
-  componentDidMount() {
-    if (this.props.checked) {
-      this._completeProgress(false);
-    }
-
-    if (this.props.default) {
-      this._initDefault();
-    }
-  }
   componentWillReceiveProps(nextProps) {
     if (nextProps.checked !== this.props.checked) {
       this.setState({
