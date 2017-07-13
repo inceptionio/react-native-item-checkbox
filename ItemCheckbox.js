@@ -17,15 +17,15 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class ItemCheckbox extends React.Component {
   static propTypes = {
-    onCheck: React.PropTypes.func,
-    onUncheck: React.PropTypes.func,
-    icon: React.PropTypes.string,
-    size: React.PropTypes.number,
-    backgroundColor: React.PropTypes.string,
-    color: React.PropTypes.string,
-    iconSize: React.PropTypes.string,
-    checked: React.PropTypes.bool,
-    default: React.PropTypes.bool,
+    onCheck: PropTypes.func,
+    onUncheck: PropTypes.func,
+    icon: PropTypes.string,
+    size: PropTypes.number,
+    backgroundColor: PropTypes.string,
+    color: PropTypes.string,
+    iconSize: PropTypes.string,
+    checked: PropTypes.bool,
+    default: PropTypes.bool,
   };
 
   static defaultProps = {
