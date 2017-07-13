@@ -11,7 +11,7 @@
   },
   "bugs": "https://github.com/mhollweck/react-native-item-checkbox/issues",
   "dependencies": {
-    "react-native-vector-icons": "^2.0.3"
+    "react-native-vector-icons": "^4.2.0"
   },
   "directories": {},
   "keywords": [
